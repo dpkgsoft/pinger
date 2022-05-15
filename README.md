@@ -7,7 +7,7 @@ Please send a request to join and write us: https://vk.me/dpkgsoft
 
 Than you can invite bot to some chats and use command `!whois <domain>`, for example `!whois 1.1.1.1` or `!whois xorek.cloud`. You can use other prefix if you set it.
 
-# How to install Piner?
+# How to install Pinger?
 You need NodeJS 16.x and git installed.
 
 1. Clone this repository: `git clone https://github.com/dpkgsoft/pinger /opt/pinger`
