@@ -1,11 +1,11 @@
 # What is Pinger?
-Pinger is program which used  in VasyaBot Chat Manager to ping sites or IP.
+Pinger is a program which used  in VasyaBot Chat Manager to ping sites or IP.
 
 ## How to use it in VasyaBot Chat Manager?
 At first, bot's VK placement is https://vk.com/vasyabotcmdev.
 Please send a request to join and write us: https://vk.me/dpkgsoft
 
-Than you can invite bot to some chats and use command `!whois <domain>`, for example `!whois 1.1.1.1` or `!whois xorek.cloud`. You can use other prefix if you set it.
+Than you can invite bot to some chats and use command `!ping <domain>`, for example `!ping 1.1.1.1` or `!ping xorek.cloud`. You can use other prefix if you set it.
 
 # How to install Pinger?
 You need NodeJS 16.x and git installed.
@@ -13,7 +13,7 @@ You need NodeJS 16.x and git installed.
 1. Clone this repository: `git clone https://github.com/dpkgsoft/pinger /opt/pinger`
 2. Cd to directory `cd /opt/pinger`
 3. Install required dependencies: `npm install`
-4. Clone the `pinger.service` file to `/etc/systemd/system`: `cp pinger.service /etc/systemd/system`
+4. Copy the `pinger.service` file to `/etc/systemd/system`: `cp pinger.service /etc/systemd/system`
 5. Reload the daemon: `systemctl daemon-reload`
 6. Start the pinger: `systemctl start pinger`
 
