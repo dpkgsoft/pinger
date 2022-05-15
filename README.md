@@ -11,7 +11,7 @@ Than you can invite bot to some chats and use command `!whois <domain>`, for exa
 You need NodeJS 16.x and git installed.
 
 1. Clone this repository: `git clone https://github.com/dpkgsoft/pinger /opt/pinger`
-2. Cd to directory `cd pinger /opt/pinger`
+2. Cd to directory `cd /opt/pinger`
 3. Install required dependencies: `npm install`
 4. Clone the `pinger.service` file to `/etc/systemd/system`: `cp pinger.service /etc/systemd/system`
 5. Reload the daemon: `systemctl daemon-reload`
