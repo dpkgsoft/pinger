@@ -1,0 +1,15 @@
+{
+  "name": "pinger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "DpkgSoft Computers, LLC",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "ping": "^0.4.2"
+  }
+}
